@@ -1,0 +1,33 @@
+$backgroundColor: #2ecc71;
+
+body {
+    margin: 0;
+    color: black;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.resources-modal {
+    max-width: 300px;
+    min-width: 300px;
+    z-index: 99999999;
+    min-height: 200px;
+    position: fixed;
+    background-color: rgb(245, 245, 245);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border: 1px solid black;
+
+    .close {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+    }
+}
